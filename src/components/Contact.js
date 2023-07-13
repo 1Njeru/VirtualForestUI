@@ -3,10 +3,11 @@ import React from 'react'
 const Contact = () => {
   return (
 
-    <div className='grid justify-center px-2 bg-slate-200 pb-20'>
+    <div className='grid justify-center px-2 
+     w-[100%] bg-slate-200 pb-20'>
 
 
-    <div className='px-8 pt-8'>
+    <div className=' pt-8'>
     <span className='text-xl text-neutral-400'>contact form
     </span>
     </div>
@@ -49,7 +50,7 @@ const Contact = () => {
     <div className='mx-auto'>
 
         <form className=' mx-auto'> 
- <div className=' text-black'>
+ <div className=' text-black mx-auto'>
  <form action="https://getform.io/f/27b21687-26f0-47ab-a3c5-9a6e3bd8e6c0" method='POST' className='flex flex-col w-full  items-center justify-center'>
   <div className='py-3'>  
   <h1 className='pb-3'>Name</h1>
@@ -58,7 +59,7 @@ const Contact = () => {
           name="name"
           className=" bg-white outline-none
            border-b border-b-primary
-          h-[50px] font-secondary lg:w-[400px] w-[300px]
+          h-[50px] font-secondary 
            text-black focus:outline-none "
         />
         </div>
@@ -70,7 +71,7 @@ const Contact = () => {
         name="name"
         className=" bg-white outline-none
          border-b border-b-primary
-        h-[50px] font-secondary lg:w-[400px] w-[300px]
+        h-[50px] font-secondary 
          text-black focus:outline-none "
       />
       </div>
@@ -82,7 +83,7 @@ const Contact = () => {
           name="message"
           rows="10"
           className="pt-6 bg-white outline-none 
-          first-letter:border-b lg:w-[400px] w-[300px]
+          first-letter:border-b 
            text-black focus:outline-none"
         />
         </div>
