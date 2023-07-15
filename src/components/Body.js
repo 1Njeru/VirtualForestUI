@@ -28,11 +28,11 @@ const Body = () => {
         <div className='lg:h-[118px] pt-9 lg:pt-0 lg:w-[1447] justify-center items-center
         pl-5 mx-auto lg:justify-evensly flex  lg:flex-cols-1 '>
 
-      <div className='flex flex-cols-2 lg:flex-cols-1 lg:gap-12'>
+      <div className='flex flex-cols-2 lg:flex-cols-1 lg:gap-8'>
        <div className='lg:flex grid lg:gap-14  '>
 
 
-      <div className='grid items-center lg:w-60 justify-center '>
+      <div className='grid items-center lg:w-50 justify-center '>
             <button>
                 <div className='flex '>
                 <h1>Seed Bag</h1>
@@ -50,7 +50,7 @@ const Body = () => {
 
 
             
-            <div className='grid lg:w-60 items-center lg:justify-center py-3 lg:py-0
+            <div className='grid lg:w-60 items-center lg:justify-center pr-3 lg:py-0
              '>
             <button>
                 <div className='flex'>
@@ -70,7 +70,7 @@ const Body = () => {
             
 
 
-            <div className='grid items-center lg:w-60 justify-center'>
+            <div className='grid items-center lg:w-60 justify-center lg:grid-cols-1 grid-cols-2'>
             <button>
                 <div className='flex'>
                 <h1>Manure</h1>
@@ -82,10 +82,12 @@ const Body = () => {
              <span className='grid font-light text-start pl-1'>
                 Total:0  
              </span>
-                <div  classname='grid gap-4'>
+
+                
+                <div  classname='grid gap-4 pl-4 '>
                 <div className='flex'>
    <div className='h-[24px] rounded-xl
-            flex justify-center bg-green-600 w-[117px]'>
+            flex justify-center bg-green-600 w-[97px]'>
             <button className=' '>
             <li className='flex items-center'>
 <a href='https://www.zuraverse.xyz/' target='_blank rel="noreferrer"'>
@@ -96,7 +98,7 @@ Buy Now
                 </div>
 
                    <div className='h-[24px] rounded-xl
-            flex justify-center bg-green-900 w-[117px]'>
+            flex justify-center bg-green-900 w-[97px]'>
             <button className=' '>
             <li className='flex items-center'>
 <a href='https://www.zuraverse.xyz/' target='_blank rel="noreferrer"'>
@@ -120,7 +122,7 @@ Watch Ad
 
                 
 
-            <div className=' flex items-center lg:pl-0 pl-5 '>
+            <div className=' flex items-center lg:pl-0 pl-12 '>
             <button className=' lg:w-[440px] w-60
             py-2 bg-lime-500'>
                 <div className=' flex justify-start items-center pl-3'>
