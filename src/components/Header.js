@@ -54,7 +54,7 @@ const Header = () => {
         </div>
 
       
-      <div className='px-4 flex justify-center items-center'>
+      <div className='px-7 flex justify-center items-center'>
         
         <ul className="flex items-center px-3 pt-2 mx-auto lg:pt-0">
         {links.map(({ id, link }) => (
