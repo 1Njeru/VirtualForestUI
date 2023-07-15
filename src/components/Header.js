@@ -56,11 +56,11 @@ const Header = () => {
       
       <div className='px-7 flex justify-center items-center'>
         
-        <ul className="flex items-center px-3 pt-2 mx-auto lg:pt-0">
+        <ul className="flex items-center px-2 pt-2 mx-auto lg:pt-0">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="lg:px-8 px-4 cursor-pointer capitalize font-medium
+            className="lg:px-8 px-2 cursor-pointer capitalize font-medium
              text-gray-500 hover:scale-105 duration-200 "
           >
             <Link to={link} smooth duration={1000}>
