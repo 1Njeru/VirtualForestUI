@@ -70,7 +70,7 @@ const Body = () => {
             
 
 
-            <div className='grid items-center pt-5 lg:w-80 justify-center lg:grid-cols-1 grid-cols-2'>
+            <div className='grid items-center pt-5 lg:pt-0 lg:w-80 justify-center lg:grid-cols-1 grid-cols-2'>
                 <div>
             <button>
                 <div className='flex'>
