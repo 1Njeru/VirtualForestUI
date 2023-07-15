@@ -32,7 +32,7 @@ const Body = () => {
        <div className='lg:flex grid lg:gap-14 px-4 '>
 
 
-      <div className='grid items-center pl-12 lg:w-50 lg:justify-center '>
+      <div className='grid items-center lg:w-50 lg:justify-center '>
             <button>
                 <div className='flex '>
                 <h1>Seed Bag</h1>
@@ -40,7 +40,7 @@ const Body = () => {
             </div>
             <div className='flex items-center'>
             <Icon icon="game-icons:fertilizer-bag"className='bg-yellow-300
-             w-16 h-16 rounded-[50%] p-3'/>
+             w-16 h-16 rounded-[50%] lg:p-3'/>
              <span className='grid font-light text-start pl-1'>
                 Total:1  
              </span>
@@ -126,7 +126,7 @@ Watch Ad
 
                 
 
-            <div className=' flex items-center mx-auto lg:pl-0 pl-12 pr-4'>
+            <div className=' flex items-center mx-auto lg:pl-0 pl-4 pr-4'>
             <button className=' lg:w-[440px] w-auto
             py-2 bg-lime-500'>
                 <div className=' flex justify-start items-center pl-3'>
