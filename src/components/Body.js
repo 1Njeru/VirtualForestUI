@@ -32,7 +32,7 @@ const Body = () => {
        <div className='lg:flex grid lg:gap-14  '>
 
 
-      <div className='grid items-center lg:w-50 justify-center '>
+      <div className='grid items-center lg:w-50 lg:justify-center '>
             <button>
                 <div className='flex '>
                 <h1>Seed Bag</h1>
@@ -71,6 +71,7 @@ const Body = () => {
 
 
             <div className='grid items-center lg:w-80 justify-center lg:grid-cols-1 grid-cols-2'>
+                <div>
             <button>
                 <div className='flex'>
                 <h1>Manure</h1>
@@ -95,6 +96,7 @@ Buy Now
 </a>
 </li>
                 </button>
+                </div>
                 </div>
 
                    <div className='h-[24px] rounded-xl
