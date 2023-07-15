@@ -27,6 +27,7 @@ const Header = () => {
     {
       id: 5,
       link: "Blog",
+      href: "https://www.f6s.com/company/zuraverse"
     },
   ];
   
