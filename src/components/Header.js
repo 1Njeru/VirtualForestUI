@@ -24,11 +24,7 @@ const Header = () => {
       id: 4,
       link: "contact",
     },
-    {
-      id: 5,
-      link: "Blog",
-      href: "https://www.f6s.com/company/zuraverse"
-    },
+
   ];
   
   return (
@@ -70,6 +66,12 @@ const Header = () => {
           </li>
         ))}
         <div className='pl-3 flex items-center'>
+<div className="lg:px-8 px-3 cursor-pointer capitalize font-medium
+             text-gray-500 hover:scale-105 duration-200 ">
+  <span>Blog </span>
+  
+  </div>
+  
         <div className=' rounded-xl h-[45px] border-2
             flex justify-center lg:bg-gray-600 lg:w-[221.61px]'>
             <button className=' '>
