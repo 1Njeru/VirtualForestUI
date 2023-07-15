@@ -82,18 +82,12 @@ const Body = () => {
              <span className='grid font-light text-start pl-1'>
                 Total:0  
              </span>
-             </div>
-            </button>
-            </div>
-            </div>
-
-                
-<div  classname='grid gap-4'>
+                <div  classname='grid gap-4'>
                 <div className='flex'>
-   <div className='h-[36px] rounded-xl
+   <div className='h-[24px] rounded-xl
             flex justify-center bg-green-600 w-[117px]'>
             <button className=' '>
-            <li className='flex  hover:scale-105 items-center'>
+            <li className='flex items-center'>
 <a href='https://www.zuraverse.xyz/' target='_blank rel="noreferrer"'>
 Buy Now
 </a>
@@ -101,10 +95,10 @@ Buy Now
                 </button>
                 </div>
 
-                   <div className='h-[36px] rounded-xl
+                   <div className='h-[24px] rounded-xl
             flex justify-center bg-green-900 w-[117px]'>
             <button className=' '>
-            <li className='flex  hover:scale-105 items-center'>
+            <li className='flex items-center'>
 <a href='https://www.zuraverse.xyz/' target='_blank rel="noreferrer"'>
 Watch Ad
 </a>
@@ -113,9 +107,15 @@ Watch Ad
                 </div>
                 </div>
                 <div>
-                <span>Proceeds go to Planters Organization</span>
+                <span className='text-sm'>Proceeds go to Planters Organization</span>
                 </div>
                 </div>
+             </div>
+            </button>
+            </div>
+            </div>
+
+ 
                 
 
                 
