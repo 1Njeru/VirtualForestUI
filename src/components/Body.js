@@ -13,7 +13,7 @@ const Body = () => {
   return (
     <div className='home'>
     <div className='mx-auto lg:w-[1440px] lg:h-[1363px] 
-    lg:pt-[-358px] 
+    lg:pt-[-358px] px-4
     lg:border-[1px] lg:pl-[-310px] bg-blend-overlay'>
         <div className='mx-auto '>
 
@@ -70,8 +70,8 @@ const Body = () => {
             
 
 
-            <div className='grid items-center lg:w-80 justify-center lg:grid-cols-1 grid-cols-2'>
-                
+            <div className='grid items-center pt-3 lg:w-80 justify-center lg:grid-cols-1 grid-cols-2'>
+                <div>
             <button>
                 <div className='flex'>
                 <h1>Manure</h1>
@@ -85,8 +85,8 @@ const Body = () => {
              </span>
 
                 
-                <div  classname='grid gap-4 pl-4 '>
-                <div className='flex'>
+                <div  classname='grid gap-4 pl-4'>
+                <div className='flex pt-1 '>
    <div className='h-[24px] rounded-xl
             flex justify-center bg-green-600 w-[97px]'>
             <button className=' '>
@@ -96,7 +96,7 @@ Buy Now
 </a>
 </li>
                 </button>
-             
+             </div>
                 
 
                    <div className='h-[24px] rounded-xl
@@ -116,6 +116,7 @@ Watch Ad
                 </div>
              </div>
             </button>
+            </div>
                 </div>
             </div>
             </div>
@@ -279,7 +280,7 @@ Mint Now
     </div>
     </div>
 
-    </div>
+    
   )
 }
 

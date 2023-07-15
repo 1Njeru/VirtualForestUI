@@ -10,7 +10,7 @@ const Contact = () => {
  <div className='contact'>
 
 <div className=' mx-auto 
-    grid justify-center lg:justify-center 
+    grid justify-center lg:justify-center w-screen
     lg:w-[1447px] lg:h-[851px] bg-green-100  text-black'>
    <div className='grid grid-col items-center lg:flex-row 
     text-center lg:pt-1 '>

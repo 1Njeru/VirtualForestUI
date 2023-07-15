@@ -28,6 +28,7 @@ const Header = () => {
   ];
   
   return (
+    <div className='px-4 lg:px-0 '>
     <div className='lg:h-[105px] lg:w-[1447px] lg:pl-[-7] h-36
     flex flex-col lg:justify- justify-center items-center
     mx-auto from-neutral-300 bg-lime-300'>
@@ -100,6 +101,8 @@ ConnectWallet
         </div>
     </div>
     </div>
+    </div>
+
   )
 }
 
