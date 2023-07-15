@@ -114,21 +114,21 @@ const Body = () => {
 
         <div className='lg:h-[153px] lg:w-[1447] 
          flex flex-row pt-9 lg:pt-0 mx-auto'>
-            <div className=' mx-auto w-[80%] bg-gradient-to-tr flex 
+            <button className=' mx-auto w-[80%] bg-gradient-to-tr flex 
              from-sky-500 to-gray-300 lg:items-center'>
                 <div className='flex justify-center 
                 lg:items-center'>
 
                 
-                    <button className='flex lg:gap-60  items-center 
+                    <div className='flex lg:gap-60  items-center 
                     gap-10 lg:items-center pl-6 pr-5 lg:pl-36 text-white'>
                     <span className='text-4xl'>PLACE <br /> YOUR</span>
                     <span className='lg:text-8xl justify-center'>A
                     D</span>
                     <span className='text-4xl'>HERE</span>
-                    </button>
+                    </div>
                 </div>
-             </div>
+             </button>
 
                         
              <div className='grid bg-lime-300 p-2 '>
