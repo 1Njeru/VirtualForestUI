@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from '../assets/logo.png'
 import { Link } from "react-scroll";
+import { Icon } from '@iconify/react';
+import About from './About';
 
 
 
@@ -49,22 +51,29 @@ const Header = () => {
         </div>
       
         
-        <ul className="flex items-center">
+        <ul className="flex items-center pt-3 lg:pt-0">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-8 cursor-pointer capitalize font-medium
+            className="lg:px-8 px-3 cursor-pointer capitalize font-medium
              text-gray-500 hover:scale-105 duration-200 "
           >
-            <Link to={link} smooth duration={500}>
+            <Link to={link} smooth duration={1000}>
               {link}
             </Link>
           </li>
         ))}
-        <div className=' rounded-xl h-[45px]
-            flex justify-center bg-gray-600 w-[221.61px]'>
+        <div className='pl-3 flex items-center'>
+        <div className=' rounded-xl h-[45px] border-2
+            flex justify-center lg:bg-gray-600 lg:w-[221.61px]'>
             <button className=' '>
                     Connect Wallet
+                </button>
+                </div>
+                <button className='pl-3 lg:pl-8 items-center'>
+                <Icon icon="healthicons:ui-user-profile-outline" 
+                className='w-10 h-10'/>
+             
                 </button>
                 </div>
       </ul>
@@ -79,4 +88,3 @@ const Header = () => {
 }
 
 export default Header;
-

@@ -1,8 +1,15 @@
 import React from 'react'
 import tree from '../assets/tree.png'
+import { Icon } from '@iconify/react';
+import world from '../assets/world.png'
+
+
 
 
 const Body = () => {
+
+
+    
   return (
     <div className='home'>
     <div className='mx-auto lg:w-[1440px] lg:h-[1363px] 
@@ -10,58 +17,161 @@ const Body = () => {
     lg:border-[1px] lg:pl-[-310px] bg-blend-overlay'>
         <div className='mx-auto '>
 
+    
             <div>
-            <img src='https://picsum.photos/id/5/1400/550' alt='' 
+            <img src={world} alt='' 
             className='lg:w-[1447px] lg:h-[625px] '/>
             </div>
 
-        <div className='lg:h-[118px] lg:w-[1447] flex  
-        gap-8 pl-5 mx-auto justify-evenly'>
 
-            <button>Seed Bag</button>
-            <button>Water</button>
-            <button>Manure</button>
-            <div className=' flex items-center '>
+      
+        <div className='lg:h-[118px] pt-9 lg:pt-0 lg:w-[1447] justify-center items-center
+        pl-5 mx-auto lg:justify-evensly flex  lg:flex-cols-1 '>
+
+      <div className='flex flex-cols-2 lg:flex-cols-1 lg:gap-12'>
+       <div className='lg:flex grid lg:gap-14  '>
+
+
+      <div className='grid items-center lg:w-60 justify-center '>
+            <button>
+                <div className='flex '>
+                <h1>Seed Bag</h1>
+            <span className=' font-extralight'>(refills everyday)</span>
+            </div>
+            <div className='flex items-center'>
+            <Icon icon="game-icons:fertilizer-bag"className='bg-yellow-300
+             w-16 h-16 rounded-[50%] p-3'/>
+             <span className='grid font-light text-start pl-1'>
+                Total:1  
+             </span>
+             </div>
+            </button>
+            </div>
+
+
+            
+            <div className='grid lg:w-60 items-center lg:justify-center py-3 lg:py-0
+             '>
+            <button>
+                <div className='flex'>
+                <h1>Water</h1>
+            <span className=' font-extralight'>(unlimited)</span>
+            </div>
+            <div className='flex items-center'>
+            <Icon icon="solar:waterdrop-broken" className='bg-blue-300
+             w-16 h-16 rounded-[50%] p-3'/>
+             <span className='grid font-light text-start pl-1'>
+                Needed <br />
+                Everyday
+             </span>
+             </div>
+            </button>
+            </div>
+            
+
+
+            <div className='grid items-center lg:w-60 justify-center'>
+            <button>
+                <div className='flex'>
+                <h1>Manure</h1>
+            <span className=' font-extralight'>(Speeds up growth)</span>
+            </div>
+            <div className='flex items-center'>
+            <Icon icon="fluent-emoji-flat:mountain" className='bg-orange-500
+             w-16 h-16 rounded-[50%] p-3'/>
+             <span className='grid font-light text-start pl-1'>
+                Total:0  
+             </span>
+             </div>
+            </button>
+            </div>
+            </div>
+
+            <div className=' flex items-center lg:pl-0 pl-5 '>
             <button className=' lg:w-[440px] w-60
-            py-2 bg-lime-500'>go</button>
+            py-2 bg-lime-500'>
+                <div className=' flex justify-start items-center pl-3'>
+                <Icon icon="game-icons:fertilizer-bag" className='w-16 h-16
+                bg-white ' />
+                <div className='pl-4 text-start'>
+                 <span className=''>Get Extra and Rare Seeds </span> <br />
+                 <span className='font-extralight'>Proceeds go to Planters Organization</span>
+                 </div>
+                </div>
+               
+            </button>
             </div>
         </div>
+        </div>
+        
 
-        <div className='lg:h-[153px] lg:w-[1447] flex flex-row'>
-            <div className='w-[80%] bg-gradient-to-tr from-sky-500 to-gray-300'></div>
-            <div className='w-[20%] bg-lime-300'></div>
+
+        <div className='lg:h-[153px] lg:w-[1447] 
+         flex flex-row pt-9 lg:pt-0 mx-auto'>
+            <div className=' mx-auto w-[80%] bg-gradient-to-tr flex 
+             from-sky-500 to-gray-300 lg:items-center'>
+                <div className='flex justify-center 
+                lg:items-center'>
+                    <div className='flex lg:gap-60  items-center 
+                    gap-10 lg:items-center pl-6 pr-5 lg:pl-36 text-white'>
+                    <span className='text-4xl'>PLACE <br /> YOUR</span>
+                    <span className='lg:text-8xl justify-center'>A
+                    D</span>
+                    <span className='text-4xl'>HERE</span>
+                    </div>
+                </div>
+             </div>
+             <div className='grid bg-lime-300 p-2 '>
+            <div className='text-sm
+            flex lg:items-center'>Ads Support
+            the Planters Organization. Subscribe to remove.
+            </div>
+            <div className='h-[36px] rounded-xl
+            flex justify-center bg-green-600 w-[117px]'>
+            <button className=' '>
+                    Subscribe
+                </button>
+                </div>
+            </div>
 
         </div>
 
         <div className='justify-evenly mx-auto'>
+
+
+
         <div className='grid lg:grid-cols-2 grid-cols-1 lg:pl-6 pt-8 gap-8 '>
             <div className='grid lg:w-[591px] pl-6 lg:h-[97px] 
-            justify-evenly mx-auto'>
-                <div className='grid grid-cols-2 pt-6'>
+            justify-evenly mx-auto lg:pt-4'>
+
+                <div className='grid grid-cols-2 lg:pl-16 pt-6 '>
+
                 <div className=' grid '>
                 <h1 className='font-extrabold'>Stages</h1>
                 <span className=''>Seeding (Day 0-4)</span>
-                <span className=' '>Saping (Day5-14)</span>
-                <span className=' '>Tree (Day 15)</span>
+                <span className=''>Saping (Day5-14)</span>
+                <span className=''>Tree (Day 15)</span>
                 </div>
 
 
-                <div className='grid lg:pl-28 justify-between'>
-                    <div>
+                <div className='grid lg:pl-28 lg:justify-between'>
+                    <div className='grid'>
                 <h1 className=' font-semibold'>Tools</h1>
-                <span className=' '>Water:Needed Everyday</span>
-                <span className=' '>Manure: Speeds up by 2 days</span>
+                <span className=''>Water:Needed Everyday</span>
+                <span className=''>Manure: Speeds up by 2 days</span>
                 </div>
 
                 </div>
                 </div>
- 
             </div>
+
+
+
             <div className='flex flex-row lg:pt-0 pt-8
              justify-center items-center 
     lg:justify-start  
     mx-auto'>
-            <div className='lg:w-[667] lg:h-[328] '>
+            <div className='lg:w-[667] lg:h-[328] px-8'>
             <div className='w-[249px] h-[29px] '>    
             <h1 className='font-semibold text-xl'>Upcoming Collectible</h1>
             </div>
@@ -69,7 +179,7 @@ const Body = () => {
             <div>
                 <img src={tree} alt='' className='w-[291px] h-[287px]' />
             </div>
-            <div>
+            <div className='pl-4 lg:pl-0'>
                 <h1 className='text-xl font-semibold'>Tree NFT</h1>
                 <span>The virtual twin of a real sapling planted by <br />
                 your efforts and contributions. This sapling would be <br />
@@ -80,8 +190,9 @@ const Body = () => {
 
        
             <br />
-
-            <span className='text-xl pt-3'>12 days to go!</span>
+            <div className='pt-4'>
+            <span className='text-xl'>12 days to go!</span>
+            </div>
             <div className='pt-5'>
             <div className='h-[36px] rounded-xl
             flex justify-center bg-gray-600 w-[117px]'>
@@ -104,10 +215,7 @@ const Body = () => {
         </div>
 
         <footer className='pt-4 flex justify-start'>
-            <button className=' border-4 rounded-md 
-            border-gray-400 '>
-             About
-            </button>
+  
         </footer>
     </div>
     </div>
