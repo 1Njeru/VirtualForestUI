@@ -94,7 +94,7 @@ const Body = () => {
             flex justify-center bg-green-600 w-[117px]'>
             <button className=' '>
             <li className='flex  hover:scale-105 items-center'>
-<a href='' target='_blank rel="noreferrer"'>
+<a href='https://www.zuraverse.xyz/' target='_blank rel="noreferrer"'>
 Buy Now
 </a>
 </li>
@@ -105,7 +105,7 @@ Buy Now
             flex justify-center bg-green-900 w-[117px]'>
             <button className=' '>
             <li className='flex  hover:scale-105 items-center'>
-<a href='' target='_blank rel="noreferrer"'>
+<a href='https://www.zuraverse.xyz/' target='_blank rel="noreferrer"'>
 Watch Ad
 </a>
 </li>
