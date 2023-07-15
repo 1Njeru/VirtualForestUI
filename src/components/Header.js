@@ -42,10 +42,15 @@ const Header = () => {
             <div className='grid justify-center lg:pt-6 
             lg:gap-32'>
        
-          <div className=''>
-         <img src={logo} alt='' />
+          <button className=''>
+      <li className='flex  hover:scale-105 hover:text-pink-600 items-center mb-3'>
+<a href='https:///zuraverse.xyz/' target='_blank rel="noreferrer"'>
+<img src={logo} alt='' />
+</a>
+</li>
+         
         
-        </div>
+        </button>
       
         </div>
         </div>
