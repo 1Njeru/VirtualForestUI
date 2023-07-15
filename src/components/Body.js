@@ -96,7 +96,7 @@ const Body = () => {
                 <div className='pl-4 text-start'>
 
                             <li className='flex  hover:scale-105 items-center'>
-<a href='https://sapio.netlify.com/' target='_blank rel="noreferrer"'>
+<a href='https://zuraverse.xyv/' target='_blank rel="noreferrer"'>
   <span className=''>Get Extra and Rare Seeds </span> <br />
                  <span className='font-extralight'>Proceeds go to Planters Organization</span>
                                 </a>
