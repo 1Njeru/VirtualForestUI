@@ -114,7 +114,7 @@ const Body = () => {
 
         <div className='lg:h-[153px] lg:w-[1447] 
          flex flex-row pt-9 lg:pt-0 mx-auto'>
-            <button className=' mx-auto w-[80%] bg-gradient-to-tr flex hover:scale-95
+            <button className=' mx-auto w-[80%] bg-gradient-to-tr flex hover:scale-95 duration:1000
              from-sky-500 to-gray-300 lg:items-center'>
                 <div className='flex justify-center 
                 lg:items-center'>
