@@ -25,7 +25,7 @@ const Body = () => {
 
 
       
-        <div className='lg:h-[118px] pt-9 lg:pt-0 lg:w-[1447] justify-center items-center
+        <div className='lg:h-[118px] pt-9 px-4 lg:pt-0 lg:w-[1447] justify-center items-center
         pl-5 mx-auto lg:justify-evensly flex  lg:flex-cols-1 '>
 
       <div className='flex flex-cols-2 lg:flex-cols-1 lg:gap-8'>
