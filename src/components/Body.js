@@ -23,7 +23,7 @@ const Body = () => {
             className='lg:w-[1447px] lg:h-[625px] '/>
             </div>
 
-
+<div className='px-4'>
       
         <div className='lg:h-[118px] pt-9 px-4 lg:pt-0 lg:w-[1447] justify-center items-center
         pl-5 mx-auto lg:justify-evensly flex  lg:flex-cols-1 '>
@@ -148,6 +148,7 @@ Watch Ad
             </div>
         </div>
         </div>
+                </div>
         
 
 
