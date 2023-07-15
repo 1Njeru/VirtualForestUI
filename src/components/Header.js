@@ -54,7 +54,7 @@ const Header = () => {
         </div>
       
         
-        <ul className="flex items-center pt-3 lg:pt-0">
+        <ul className="flex items-center px-3 pt-2 lg:pt-0">
         {links.map(({ id, link }) => (
           <li
             key={id}

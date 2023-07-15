@@ -7,15 +7,15 @@ const Contact = () => {
   return (
 
 
- <div className='contact'>
+ <div className='contact w-[100%]'>
 
 <div className=' mx-auto 
-    grid justify-center lg:justify-center w-screen
+    grid justify-center lg:justify-center w-[100%]
     lg:w-[1447px] lg:h-[851px] bg-green-100  text-black'>
    <div className='grid grid-col items-center lg:flex-row 
     text-center lg:pt-1 '>
 
-      <div className=''>
+      <div className='w-[100%]'>
       <div className=''>
     <h1 className=' text-gray-400 flex lg:justify-start text-xl 
     lg:pt-14 lg:pl-[90px] pt-14 justify-center'>contact form</h1>
