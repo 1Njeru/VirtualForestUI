@@ -94,7 +94,7 @@ Instagram
 </a>
 </li>
 
-<li className='flex hover:scale-105 hover:text-blue-700 items-center s'>
+<li className='flex hover:scale-105 hover:text-blue-700 items-center mb-3'>
 <a href='https://twitter.com/Zuraverse/' target='_blank rel="noreferrer"'>
 Twitter
 </a>
