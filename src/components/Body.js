@@ -199,7 +199,7 @@ const Body = () => {
 
 
         
-            <button className=' '>
+            <button className='flex justify-center items-center '>
                        <li className='flex  hover:scale-105 hover:text-pink-600 items-center mb-3'>
 <a href='https:///zuraverse.xyz/' target='_blank rel="noreferrer"'>
 Mint Now
