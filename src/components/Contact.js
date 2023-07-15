@@ -94,20 +94,22 @@ Instagram
 </a>
 </li>
 
+<li className='flex hover:scale-105 hover:text-blue-700 items-center s'>
+<a href='https://twitter.com/Zuraverse/' target='_blank rel="noreferrer"'>
+Twitter
+</a>
+</li>
 
+  
 <li className='flex hover:scale-95 hover:text-blue-600 items-center mb-3'>
-<a href='https://zuraverse.xyz/' target='_blank rel="noreferrer"'>
+<a href='https://facebook.com/zuraverse/' target='_blank rel="noreferrer"'>
 Facebook
 </a>
 </li>
 
 
 
-<li className='flex hover:scale-105 hover:text-blue-700 items-center s'>
-<a href='https://twitter.com/Zuraverse/' target='_blank rel="noreferrer"'>
-Twitter
-</a>
-</li>
+
 </div>
    </div>
    </div>
