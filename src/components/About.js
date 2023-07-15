@@ -53,11 +53,7 @@ const About = () => {
         </div>
         
     </div>
-    <footer className='pt-4 flex justify-start'>
-    <button className=' border-4 rounded-md border-gray-400 '>
-                FAQ
-            </button>
-        </footer>
+
 
     </div>
   
