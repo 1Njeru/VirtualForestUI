@@ -52,9 +52,11 @@ const Header = () => {
       
         </div>
         </div>
+
       
+      <div className='px-4'>
         
-        <ul className="flex items-center px-3 pt-2 lg:pt-0">
+        <ul className="flex items-center px-3 pt-2 mx-auto lg:pt-0">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -94,6 +96,7 @@ ConnectWallet
                 </button>
                 </div>
       </ul>
+                  </div>
 
 
 
