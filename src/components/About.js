@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className='about'>
     <div className='flex justify-center'>
-    <div className='lg:h-[1058px] lg:w-[1440px] lg:pl-[-310px] 
+    <div className='lg:h-[1058px] lg:w-[1440px] lg:pl-[-310px] w-auto
    '>
         <div className='grid justify-center px-8'>
         <h1 className='text-2xl'>About Us</h1>
