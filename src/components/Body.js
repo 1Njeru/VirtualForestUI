@@ -71,7 +71,7 @@ const Body = () => {
 
 
             <div className='grid items-center lg:w-80 justify-center lg:grid-cols-1 grid-cols-2'>
-                <div>
+                
             <button>
                 <div className='flex'>
                 <h1>Manure</h1>
@@ -96,8 +96,8 @@ Buy Now
 </a>
 </li>
                 </button>
-                </div>
-                </div>
+             
+                
 
                    <div className='h-[24px] rounded-xl
             flex justify-center bg-green-900 w-[97px]'>
@@ -116,6 +116,7 @@ Watch Ad
                 </div>
              </div>
             </button>
+                </div>
             </div>
             </div>
 
