@@ -58,7 +58,7 @@ const Header = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="lg:px-8 px-3 cursor-pointer capitalize font-medium
+            className="lg:px-8 px-4 cursor-pointer capitalize font-medium
              text-gray-500 hover:scale-105 duration-200 "
           >
             <Link to={link} smooth duration={1000}>
