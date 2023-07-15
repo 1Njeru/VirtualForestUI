@@ -32,9 +32,9 @@ const Body = () => {
        <div className='lg:flex grid lg:gap-14 px-4 '>
 
 
-      <div className='grid items-center lg:w-50 pl:12 lg:pl-0 lg:justify-center '>
+      <div className='grid items-center lg:w-50 lg:pl-0 lg:justify-center '>
             <button>
-                <div className='flex '>
+                <div className='flex pl-7'>
                 <h1>Seed Bag</h1>
             <span className=' font-extralight'>(refills everyday)</span>
             </div>
@@ -195,7 +195,7 @@ Subscribe
 
 
         <div className='grid lg:grid-cols-2 grid-cols-1 lg:pl-6 pt-8 gap-8 '>
-            <div className='grid lg:w-[591px] pl-6 lg:h-[97px] 
+            <div className='grid lg:w-[591px] pl-6 lg:h-[97px] w-auto
             justify-evenly mx-auto lg:pt-4'>
 
                 <div className='grid grid-cols-2 lg:pl-16 pt-6 '>
