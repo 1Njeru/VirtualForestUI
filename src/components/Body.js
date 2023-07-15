@@ -126,7 +126,7 @@ Watch Ad
 
                 
 
-            <div className=' flex items-center lg:pl-0 pl-12 pr-4'>
+            <div className=' flex items-center mx-auto lg:pl-0 pl-12 pr-4'>
             <button className=' lg:w-[440px] w-60
             py-2 bg-lime-500'>
                 <div className=' flex justify-start items-center pl-3'>
