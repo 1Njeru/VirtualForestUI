@@ -66,9 +66,13 @@ const Header = () => {
           </li>
         ))}
         <div className='pl-3 flex items-center'>
-<div className="lg:px-8 px-3 cursor-pointer capitalize font-medium
+<div className="lg:px-8 pr-4 cursor-pointer capitalize font-medium
              text-gray-500 hover:scale-105 duration-200 ">
-  <span>Blog </span>
+                               <li className=''>
+<a href='https://www.f6s.com/company/zuraverse' target='_blank rel="noreferrer"'>
+Blog
+</a>
+</li>
   
   </div>
   
