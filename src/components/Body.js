@@ -85,8 +85,8 @@ const Body = () => {
              </span>
 
                 
-                <div  classname='grid gap-4 pl-4'>
-                <div className='flex pt-1 '>
+                <div  classname='grid gap-4 '>
+                <div className='flex pt-2 pl-4 '>
    <div className='h-[24px] rounded-xl
             flex justify-center bg-green-600 w-[97px]'>
             <button className=' '>
