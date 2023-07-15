@@ -128,8 +128,8 @@ const Body = () => {
             </div>
             <div className='h-[36px] rounded-xl
             flex justify-center bg-green-600 w-[117px]'>
-            <button className=' '>
-                                         <li className='flex  hover:scale-105 hover:text-green-600 items-center mb-3'>
+            <button className=' '
+            <li className='flex  hover:scale-105 hover:text-green-600 items-center'>
 <a href='https://sapio.netlify.com/' target='_blank rel="noreferrer"'>
 Subscribe
 </a>
@@ -204,7 +204,7 @@ Subscribe
 
         
             <button className='flex '>
-                       <li className='flex  hover:scale-105 hover:text-green-600 items-center mb-3'>
+                       <li className='flex  hover:scale-105 hover:text-green-600 items-center'>
 <a href='https://zuraverse.xyz/' target='_blank rel="noreferrer"'>
 Mint Now
 </a>
