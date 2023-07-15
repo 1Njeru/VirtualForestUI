@@ -28,8 +28,8 @@ const Body = () => {
         <div className='lg:h-[118px] pt-9 px-4 lg:pt-0 lg:w-[1447] justify-center items-center
         pl-5 mx-auto lg:justify-evensly flex  lg:flex-cols-1 '>
 
-      <div className='flex flex-cols-2 lg:flex-cols-1 lg:gap-8'>
-       <div className='lg:flex grid lg:gap-14  '>
+      <div className='flex flex-cols-2 lg:flex-cols-1 px-4 lg:gap-8'>
+       <div className='lg:flex grid lg:gap-14 px-4 '>
 
 
       <div className='grid items-center lg:w-50 lg:justify-center '>
@@ -151,7 +151,7 @@ Watch Ad
         
 
 
-        <div className='lg:h-[153px] lg:w-[1447] 
+        <div className='lg:h-[153px] lg:w-[1447] px-4
          flex flex-row pt-9 lg:pt-0 mx-auto'>
             <button className=' mx-auto w-[80%] bg-gradient-to-tr flex hover:scale-95 duration-1000
              from-sky-500 to-gray-300 lg:items-center'>
@@ -160,7 +160,7 @@ Watch Ad
 
                 
                     <div className='flex lg:gap-60  items-center 
-                    gap-10 lg:items-center pl-6 pr-5 lg:pl-36 text-white'>
+                    gap-10 lg:items-center px-6 lg:pl-36 text-white'>
                     <span className='text-4xl'>PLACE <br /> YOUR</span>
                     <span className='lg:text-8xl justify-center'>A
                     D</span>
