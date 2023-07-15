@@ -13,7 +13,7 @@ const Body = () => {
   return (
     <div className='home'>
     <div className='mx-auto lg:w-[1440px] lg:h-[1363px] 
-    lg:pt-[-358px] px-4
+    lg:pt-[-358px] px-
     lg:border-[1px] lg:pl-[-310px] bg-blend-overlay'>
         <div className='mx-auto '>
 
