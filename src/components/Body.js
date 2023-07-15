@@ -33,7 +33,7 @@ const Body = () => {
 
 
       <div className='grid items-center lg:w-50 pb-3 lg:pb-0 lg:pl-0 lg:justify-center '>
-            <button className='pl-4'>
+            <button className='pl-5'>
                 <div className='flex pl-'>
                 <h1>Seed Bag</h1>
             <span className=' font-extralight'>(refills everyday)</span>
