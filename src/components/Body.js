@@ -195,12 +195,12 @@ const Body = () => {
             </div>
             <div className='pt-5'>
             <div className='h-[36px] rounded-xl
-            flex justify-center bg-gray-600 w-[117px]'>
+            flex justify-center items-center bg-gray-600 w-[117px]'>
 
 
         
-            <button className='flex justify-center items-center '>
-                       <li className='flex  hover:scale-105 hover:text-pink-600 items-center mb-3'>
+            <button className='flex '>
+                       <li className='flex  hover:scale-105 hover:text-green-600 items-center mb-3'>
 <a href='https:///zuraverse.xyz/' target='_blank rel="noreferrer"'>
 Mint Now
 </a>
