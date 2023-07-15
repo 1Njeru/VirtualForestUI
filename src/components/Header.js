@@ -72,7 +72,7 @@ const Header = () => {
         <div className=' rounded-xl h-[45px] border-2
             flex justify-center lg:bg-gray-600 lg:w-[221.61px]'>
             <button className=' '>
-                             <li className='flex  hover:scale-105 hover:text-green-600 items-center'>
+                             <li className='flex  hover:scale-105 items-center'>
 <a href='https://www.centralbank.go.ke//' target='_blank rel="noreferrer"'>
 ConnectWallet
 </a>
