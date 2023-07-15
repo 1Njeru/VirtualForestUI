@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/logo.png'
 import { Link } from "react-scroll";
 import { Icon } from '@iconify/react';
-import About from './About';
+
 
 
 
