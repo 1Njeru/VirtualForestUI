@@ -99,10 +99,11 @@ const Body = () => {
 <a href='https://sapio.netlify.com/' target='_blank rel="noreferrer"'>
   <span className=''>Get Extra and Rare Seeds </span> <br />
                  <span className='font-extralight'>Proceeds go to Planters Organization</span>
+                                </a>
+</li>
                  </div>
                 </div>
-                </a>
-</li>
+
                
             </button>
             </div>
