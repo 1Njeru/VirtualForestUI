@@ -28,13 +28,13 @@ const Header = () => {
   ];
   
   return (
-    <div className='px-4 lg:px-0 '>
+    <div className=' lg:px-0 '>
     <div className='lg:h-[105px] lg:w-[1447px] lg:pl-[-7] h-36
     flex flex-col lg:justify- justify-center items-center
     mx-auto from-neutral-300 bg-lime-300'>
 
-<div className='lg:flex lg:gap-[300px]'>  
-  <div className='lg:flex lg:gap-32'>
+<div className='lg:flex px-4 lg:px-0 lg:gap-[300px]'>  
+  <div className='lg:flex lg:gap-32 px-4 lg:px-0'>
           <div className='lg:h-[105px] 
           lg:w-[327.03px] lg:gap-32'>
             <div className='grid justify-center lg:pt-6 
